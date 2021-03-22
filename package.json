@@ -1,0 +1,16 @@
+{
+  "name": "selenium_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "formTest.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "selenium-webdriver": "^4.0.0-beta.1"
+  },
+  "scripts": {
+    "test": "mocha formTest.js --timeout 10000"
+  },
+  "license": "MIT",
+  "private": true
+}
